@@ -1,0 +1,30 @@
+﻿生成启动时间为 4/11/2015 9:45:36 PM。
+     1>项目“D:\learnings\game_engine_design\MyEngine\renderer\ZFXD3D\ZFXD3D.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D _CRT_SECURE_NO_WARNINGS /D ZFXD3D_EXPORTS /D _WINDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ZFXD3D_enum.cpp ZFXD3D_init.cpp ZFXD3D_main.cpp
+         ZFXD3D_main.cpp
+         ZFXD3D_init.cpp
+         ZFXD3D_enum.cpp
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /l"0x0409" /nologo /fo"Debug\dlgChangeDevice.res" dlgChangeDevice.rc 
+     1>dlgChangeDevice.rc(23): warning RC2182: duplicate dialog control ID 0
+         
+     1>dlgChangeDevice.rc(24): warning RC2182: duplicate dialog control ID 0
+         
+     1>dlgChangeDevice.rc(25): warning RC2182: duplicate dialog control ID 0
+         
+     1>dlgChangeDevice.rc(26): warning RC2182: duplicate dialog control ID 0
+         
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\learnings\game_engine_design\MyEngine\renderer\Debug\ZFXD3D.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\learnings\game_engine_design\MyEngine\renderer\Debug\ZFXD3D.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\learnings\game_engine_design\MyEngine\renderer\Debug\ZFXD3D.lib" /MACHINE:X86 /DLL Debug\dlgChangeDevice.res
+         Debug\ZFXD3D_enum.obj
+         Debug\ZFXD3D_init.obj
+         Debug\ZFXD3D_main.obj
+            正在创建库 D:\learnings\game_engine_design\MyEngine\renderer\Debug\ZFXD3D.lib 和对象 D:\learnings\game_engine_design\MyEngine\renderer\Debug\ZFXD3D.exp
+         ZFXD3D.vcxproj -> D:\learnings\game_engine_design\MyEngine\renderer\Debug\ZFXD3D.dll
+     1>已完成生成项目“D:\learnings\game_engine_design\MyEngine\renderer\ZFXD3D\ZFXD3D.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.72
