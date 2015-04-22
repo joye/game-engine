@@ -319,7 +319,7 @@ HRESULT ZFXD3D::Go(void) {
       }
    m_pD3D = Direct3DCreate9( D3D_SDK_VERSION );
    if(!m_pD3D) {
-      Log("error: Direct3DCreate8()\n");
+      Log("error: Direct3DCreate9()\n");
       return ZFX_CREATEAPI;
       }
 
@@ -468,7 +468,7 @@ BOOL CALLBACK ZFXD3D::DlgProc(HWND hDlg, UINT message,
          switch (LOWORD(wParam)) {
             
             // okay button => read selections
-            case IDOK: {
+            case IDC_OK: {
                m_bWindowed = SendMessage(hFULL, BM_GETCHECK, 0, 0) != BST_CHECKED;
                m_pEnum->GetSelections(&g_xDevice, &g_Dspmd, &g_fmtA, &g_fmtB);
                GetWindowText(hADAPTER, m_chAdapter, 256);
@@ -477,7 +477,7 @@ BOOL CALLBACK ZFXD3D::DlgProc(HWND hDlg, UINT message,
                } break;
                
             // cancel button
-            case IDCANCEL: {
+            case IDC_CANCEL: {
                EndDialog(hDlg, 0);
                return TRUE;
                } break;
