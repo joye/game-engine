@@ -1,7 +1,12 @@
-﻿生成启动时间为 4/11/2015 9:45:36 PM。
+﻿生成启动时间为 4/29/2015 5:06:50 PM。
      1>项目“D:\learnings\game_engine_design\MyEngine\renderer\ZFXD3D\ZFXD3D.vcxproj”在节点 2 上(Rebuild 个目标)。
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D _CRT_SECURE_NO_WARNINGS /D ZFXD3D_EXPORTS /D _WINDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ZFXD3D_enum.cpp ZFXD3D_init.cpp ZFXD3D_main.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D _CRT_SECURE_NO_WARNINGS /D ZFXD3D_EXPORTS /D _WINDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ZFXD3D_enum.cpp ZFXD3D_init.cpp ZFXD3D_main.cpp ZFXD3D_misc.cpp ZFXD3D_skinman.cpp ZFXD3D_vcache.cpp
+         ZFXD3D_vcache.cpp
+         ZFXD3D_skinman.cpp
+     1>ZFXD3D_skinman.cpp(177): warning C4244: “=”: 从“DWORD”转换到“UCHAR”，可能丢失数据
+         ZFXD3D_misc.cpp
+     1>ZFXD3D_misc.cpp(1319): warning C4018: “<”: 有符号/无符号不匹配
          ZFXD3D_main.cpp
          ZFXD3D_init.cpp
          ZFXD3D_enum.cpp
@@ -21,10 +26,13 @@
          Debug\ZFXD3D_enum.obj
          Debug\ZFXD3D_init.obj
          Debug\ZFXD3D_main.obj
+         Debug\ZFXD3D_misc.obj
+         Debug\ZFXD3D_skinman.obj
+         Debug\ZFXD3D_vcache.obj
             正在创建库 D:\learnings\game_engine_design\MyEngine\renderer\Debug\ZFXD3D.lib 和对象 D:\learnings\game_engine_design\MyEngine\renderer\Debug\ZFXD3D.exp
          ZFXD3D.vcxproj -> D:\learnings\game_engine_design\MyEngine\renderer\Debug\ZFXD3D.dll
      1>已完成生成项目“D:\learnings\game_engine_design\MyEngine\renderer\ZFXD3D\ZFXD3D.vcxproj”(Rebuild 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:05.72
+已用时间 00:00:08.65

@@ -1,9 +1,9 @@
-﻿生成启动时间为 4/11/2015 9:45:05 PM。
+﻿生成启动时间为 4/29/2015 4:20:02 PM。
      1>项目“D:\learnings\game_engine_design\MyEngine\renderer\renderer\renderer.vcxproj”在节点 2 上(Rebuild 个目标)。
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ZFXRenderer.cpp
          ZFXRenderer.cpp
-     1>d:\learnings\game_engine_design\myengine\renderer\renderer\zfxrenderer.cpp(41): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>d:\learnings\game_engine_design\myengine\renderer\renderer\zfxrenderer.cpp(40): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(349) : 参见“_snprintf”的声明
        Lib:
          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"D:\learnings\game_engine_design\MyEngine\renderer\Debug\renderer.lib" /NOLOGO Debug\ZFXRenderer.obj
@@ -12,4 +12,4 @@
 
 生成成功。
 
-已用时间 00:00:02.89
+已用时间 00:00:01.77

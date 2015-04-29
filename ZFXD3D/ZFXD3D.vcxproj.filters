@@ -29,6 +29,12 @@
     <ClInclude Include="resource.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="ZFXD3D_skinman.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ZFXD3D_vcache.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ZFXD3D_main.cpp">
@@ -38,6 +44,15 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="ZFXD3D_init.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ZFXD3D_skinman.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ZFXD3D_misc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ZFXD3D_vcache.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

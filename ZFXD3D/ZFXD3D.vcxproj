@@ -85,11 +85,16 @@
     <ClInclude Include="resource.h" />
     <ClInclude Include="ZFX.h" />
     <ClInclude Include="ZFXD3D.h" />
+    <ClInclude Include="ZFXD3D_skinman.h" />
+    <ClInclude Include="ZFXD3D_vcache.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ZFXD3D_enum.cpp" />
     <ClCompile Include="ZFXD3D_init.cpp" />
     <ClCompile Include="ZFXD3D_main.cpp" />
+    <ClCompile Include="ZFXD3D_misc.cpp" />
+    <ClCompile Include="ZFXD3D_skinman.cpp" />
+    <ClCompile Include="ZFXD3D_vcache.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />

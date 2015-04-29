@@ -1,0 +1,31 @@
+﻿生成启动时间为 4/29/2015 3:34:32 PM。
+     1>项目“D:\learnings\game_engine_design\MyEngine\renderer\ZFX3D\ZFX3D.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt zfxaabb.cpp zfxcpu.cpp zfxmatrix.cpp zfxobb.cpp zfxplane.cpp zfxpolygon.cpp zfxquat.cpp zfxray.cpp zfxvector.cpp
+         zfxvector.cpp
+         zfxray.cpp
+         zfxquat.cpp
+         zfxpolygon.cpp
+     1>d:\learnings\game_engine_design\myengine\renderer\zfx3d\zfxpolygon.cpp(179): warning C4018: “<”: 有符号/无符号不匹配
+         zfxplane.cpp
+         zfxobb.cpp
+         zfxmatrix.cpp
+         zfxcpu.cpp
+         zfxaabb.cpp
+         正在生成代码...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"D:\learnings\game_engine_design\MyEngine\renderer\Debug\ZFX3D.lib" /NOLOGO Debug\zfxaabb.obj
+         Debug\zfxcpu.obj
+         Debug\zfxmatrix.obj
+         Debug\zfxobb.obj
+         Debug\zfxplane.obj
+         Debug\zfxpolygon.obj
+         Debug\zfxquat.obj
+         Debug\zfxray.obj
+         Debug\zfxvector.obj
+         ZFX3D.vcxproj -> D:\learnings\game_engine_design\MyEngine\renderer\Debug\ZFX3D.lib
+     1>已完成生成项目“D:\learnings\game_engine_design\MyEngine\renderer\ZFX3D\ZFX3D.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.99
